@@ -4,7 +4,7 @@ import Navbar from "../Components/Navbar/Navbar";
 
 const Main = () => {
   return (
-    <div className="bg-slate-100">
+    <div className="bg-[#fafafa]">
       <Navbar />
       <div>
         <Outlet />

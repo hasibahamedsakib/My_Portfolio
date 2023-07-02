@@ -21,3 +21,13 @@
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 }
+
+.line::before {
+  background-color: #333333;
+  content: "";
+  height: 3px;
+  right: 0;
+  position: absolute;
+  top: 1rem;
+  width: 80%;
+}
