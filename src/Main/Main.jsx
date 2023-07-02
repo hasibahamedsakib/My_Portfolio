@@ -4,13 +4,13 @@ import Navbar from "../Components/Navbar/Navbar";
 
 const Main = () => {
   return (
-    <>
+    <div className="bg-slate-100">
       <Navbar />
       <div>
         <Outlet />
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

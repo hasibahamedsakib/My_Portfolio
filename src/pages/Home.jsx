@@ -1,7 +1,31 @@
+import About from "../Components/About/About";
+import Banner from "../Components/Banner/Banner";
+import Contact from "../Components/Contact/Contact";
+import Portfolio from "../Components/Portfolio/Portfolio";
+import Service from "../Components/Service/Service";
+import Skills from "../Components/Skills/Skills";
+
 const Home = () => {
   return (
-    <div>
-      <h2 className="text-2xl font-bold">Home Components</h2>
+    <div id="home">
+      <section id="banner">
+        <Banner />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="skills">
+        <Skills />
+      </section>
+      <section id="service">
+        <Service />
+      </section>
+      <section id="portfolio">
+        <Portfolio />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
     </div>
   );
 };
