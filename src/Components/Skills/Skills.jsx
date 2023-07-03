@@ -1,19 +1,8 @@
 import { useEffect, useState } from "react";
 import HrLine from "../HrLine/HrLine";
 import SectionHeader from "../SectionHeader/SectionHeader";
+import { BsCheckCircle } from "react-icons/bs";
 
-import {
-  SiHtml5,
-  SiReact,
-  SiBootstrap,
-  SiCss3,
-  SiTailwindcss,
-  SiJavascript,
-  SiNodedotjs,
-  SiMongodb,
-  SiExpress,
-  SiFirebase,
-} from "react-icons/si";
 const Skills = () => {
   const [allSkills, setSkills] = useState([]);
   useEffect(() => {
@@ -25,7 +14,96 @@ const Skills = () => {
   return (
     <div className="container">
       <HrLine />
-      <SectionHeader title="Skills" text="" />
+      <SectionHeader title="Skills" text="Opted Technologies" />
+
+      {/* skills section */}
+      <div className="py-10 flex justify-center space-x-6 items-center text-[#333]">
+        <div className="bg-white w-full md:w-[400px] p-10 border rounded-lg text-center ">
+          <h3 className="text-2xl font-semibold pb-5">Frontend</h3>
+          <div className="grid grid-cols-2 gap-7 ">
+            <div>
+              <p className="flex  items-center font-semibold text-base">
+                <BsCheckCircle className="mr-2" size={15} /> HTML
+              </p>
+              <small>Intermediate</small>
+            </div>
+            <div>
+              <p className="flex  items-center font-semibold text-base">
+                <BsCheckCircle className="mr-2" size={15} /> CSS
+              </p>
+              <small>Intermediate</small>
+            </div>
+            <div>
+              <p className="flex  items-center font-semibold text-base">
+                <BsCheckCircle className="mr-2" size={15} /> Javascript
+              </p>
+              <small>Intermediate</small>
+            </div>
+            <div>
+              <p className="flex  items-center font-semibold text-base">
+                <BsCheckCircle className="mr-2" size={15} /> React Js
+              </p>
+              <small>Intermediate</small>
+            </div>
+            <div>
+              <p className="flex  items-center font-semibold text-base">
+                <BsCheckCircle className="mr-2" size={15} /> Bootstrap
+              </p>
+              <small>Advance</small>
+            </div>
+            <div>
+              <p className="flex  items-center font-semibold text-base">
+                <BsCheckCircle className="mr-2" size={15} /> Tailwind
+              </p>
+              <small>Advance</small>
+            </div>
+          </div>
+        </div>
+        {/* Backend */}
+        <div className="bg-white w-full md:w-[400px] p-10 border rounded-lg text-center">
+          <h3 className="text-2xl font-semibold pb-5">Backend</h3>
+          <div className="grid grid-cols-2 gap-7">
+            <div>
+              <p className="flex  items-center font-semibold text-base">
+                <BsCheckCircle className="mr-2" size={15} /> Node Js
+              </p>
+              <small>Intermediate</small>
+            </div>
+            <div>
+              <p className="flex  items-center font-semibold text-base">
+                <BsCheckCircle className="mr-2" size={15} /> Express Js
+              </p>
+              <small>Intermediate</small>
+            </div>
+            <div>
+              <p className="flex  items-center font-semibold text-base">
+                <BsCheckCircle className="mr-2" size={15} /> Firebase
+              </p>
+              <small>Intermediate</small>
+            </div>
+            <div>
+              <p className="flex  items-center font-semibold text-base">
+                <BsCheckCircle className="mr-2" size={15} /> JWT
+              </p>
+              <small>Intermediate</small>
+            </div>
+            <div>
+              <p className="flex  items-center font-semibold text-base">
+                <BsCheckCircle className="mr-2" size={15} /> EJS
+              </p>
+              <small className="ml-0">Intermediate</small>
+            </div>
+            <div>
+              <p className="flex  items-center font-semibold text-base">
+                <BsCheckCircle className="mr-2" size={15} /> Authentication
+              </p>
+              <small>Intermediate</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Slider */}
       <marquee direction="left" className="py-5 ">
         <div className={`flex space-x-7`}>
           <div className="flex space-x-8">
