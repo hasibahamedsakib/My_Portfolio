@@ -15,7 +15,7 @@ const Banner = () => {
         {/* social section */}
         <div className="">
           <a
-            href="http://"
+            href="https://github.com/hasibahamedsakib"
             target="_blank"
             rel="noopener noreferrer"
             title="Hasib's Github"
@@ -24,7 +24,7 @@ const Banner = () => {
           </a>
 
           <a
-            href="http://"
+            href="https://www.linkedin.com/in/hasib-ahamed-sakib/"
             target="_blank"
             rel="noopener noreferrer"
             title="Hasib's Linkedin"
@@ -32,7 +32,7 @@ const Banner = () => {
             <AiFillLinkedin size={25} className="my-6" />
           </a>
           <a
-            href="http://"
+            href="https://wa.me/1836405792"
             target="_blank"
             rel="noopener noreferrer"
             title="Hasib's Whatsapp"
@@ -67,11 +67,19 @@ const Banner = () => {
                 Download CV <BiCloudDownload size={25} className="ml-4" />
               </button>
             </a>
-            <a href="/#contact">
+            <Link
+              to="contact"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              className="focus:text-red-500 font-semibold hover:underline cursor-pointer active:text-red-600"
+            >
               <button className="btn-primary">
                 Lets Talk <BiMailSend size={25} className="ml-4" />
               </button>
-            </a>
+            </Link>
           </div>
           <div className="pt-10">
             <Link

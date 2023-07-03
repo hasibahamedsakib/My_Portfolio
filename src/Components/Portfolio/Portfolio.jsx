@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import HrLine from "../HrLine/HrLine";
 import SectionHeader from "../SectionHeader/SectionHeader";
 import { FaCode, FaLaptopCode } from "react-icons/fa";
@@ -5,14 +6,18 @@ const Portfolio = () => {
   return (
     <div className="container text-[#333]">
       <HrLine />
-      <SectionHeader title="Portfolio" text="MY LATEST WORK." />
-
+      <div className="flex justify-between items-center">
+        <SectionHeader title="Portfolio" text="MY LATEST WORK." />
+        <Link to="/all-works">
+          <button className="btn-primary">All My Works Here</button>
+        </Link>
+      </div>
       <div className="flex justify-around  gap-6  pt-16 ">
         <div className="border rounded-lg overflow-hidden p-5 object-fill w-full md:w-1/2">
           <img
             src="https://i.ibb.co/VvSBt3r/Web-capture-14-6-2023-162752-articio-client-web-app.jpg"
             alt="project 1"
-            className="shadow-custom rounded-xl hover:scale-110 duration-500 transition-all"
+            className="shadow-custom  rounded-xl hover:scale-110 duration-500 transition-all"
           />
         </div>
         <div className="px-5 w-full md:w-1/2">
@@ -65,7 +70,7 @@ const Portfolio = () => {
           <img
             src="https://i.ibb.co/VxcGJzj/Web-capture-14-6-2023-14510-toy-hunt-place-web-app.jpg"
             alt="project 1"
-            className="shadow-custom rounded-xl hover:scale-110 duration-500 transition-all"
+            className="shadow-custom  rounded-xl hover:scale-110 duration-500 transition-all"
           />
         </div>
         <div className="px-5 w-full md:w-1/2">
@@ -118,7 +123,7 @@ const Portfolio = () => {
           <img
             src="https://i.ibb.co/56V7J9z/Web-capture-14-6-2023-1455-chef-hunter-c8bd8-web-app.jpg"
             alt="project 1"
-            className="shadow-custom rounded-xl hover:scale-110 duration-500 transition-all"
+            className="shadow-custom  rounded-xl hover:scale-110 duration-500 transition-all"
           />
         </div>
         <div className="px-5 w-full md:w-1/2">
