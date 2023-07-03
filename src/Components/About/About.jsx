@@ -1,7 +1,8 @@
 import Lottie from "react-lottie";
-import style from "../Banner/banner.module.css";
-import animationData from "../../../public/133695-thinking-about.json";
-import { BsThreeDots } from "react-icons/bs";
+import animationData from "./133695-thinking-about.json";
+import HrLine from "../HrLine/HrLine";
+import SectionHeader from "../SectionHeader/SectionHeader";
+import { FaAward, FaBriefcase, FaHeadset } from "react-icons/fa";
 const About = () => {
   const defaultOptions = {
     loop: true,
@@ -10,32 +11,36 @@ const About = () => {
   };
   return (
     <div className=" container">
-      <div>
-        {/* <span
-          className={`${style.line} relative text-center text-8xl space-x-3`}
-        >
-          ...
-        </span> */}
-        <p className={`${style.line} relative pr-10 `}>
-          <BsThreeDots size={40} />
-        </p>
-      </div>
-
+      <HrLine />
       <div className=" flex  items-center">
         <div className="w-full lg:w-3/5 space-y-4">
-          <h1 className="text-5xl font-bold text-[#333]"> Who i am...!</h1>
-          <p className="text-xl text-[#333]">
-            I am a web designer and developer based in Dhaka, Bangladesh.
-            <br /> <br />I am a dedicated and enthusiastic programmer in my
-            daily life. I enjoy learning and discovering new technologies, and I
-            am passionate about solving problems. I have experience with various
-            web development technologies, such as Node.js,Express Js, React,
-            Next.js, Redux, Bootstrap, Tailwind Css, MongoDB, and Firebase. I
-            strive to stay updated with the latest advancements in the field and
-            apply my knowledge to create innovative solutions.
+          <SectionHeader title="About Me" text="Who i am...!" />
+          <div className="md:flex items-center justify-center space-x-6 px-10">
+            <div className="border rounded-md bg-white py-5 px-8 text-center  font-semibold text-[#333] w-full">
+              <FaAward size={30} className="mx-auto mb-3" />
+              <p>Experience</p>
+              <p className="text-xs pt-1">1+ Years</p>
+            </div>
+            <div className="border rounded-md bg-white py-5 px-8 text-center  font-semibold text-[#333] w-full">
+              <FaBriefcase size={28} className="mx-auto mb-3" />
+              <p>Completed</p>
+              <p className="text-xs pt-1">15+ projects</p>
+            </div>
+            <div className="border rounded-md bg-white py-5 px-8 text-center  font-semibold text-[#333] w-full">
+              <FaHeadset size={30} className="mx-auto mb-3" />
+              <p>Support</p>
+              <p className="text-xs pt-1">sun to thurs</p>
+            </div>
+          </div>
+          <p className="text-lg  font-medium text-[#333]">
+            I am a Web Developer, I create things for web. I have experience of
+            creating 15+ projects so far and some complex one`s are on the way.
+            dedicated and enthusiastic programmer in my daily life. I enjoy
+            learning and discovering new technologies, and I am passionate about
+            solving problems.
           </p>
         </div>
-        <div className="w-full lg:w-2/5">
+        <div className="w-full lg:w-2/5 grayscale">
           <Lottie options={defaultOptions} />
         </div>
       </div>

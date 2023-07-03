@@ -4,7 +4,7 @@ import {
   AiOutlineWhatsApp,
 } from "react-icons/ai";
 import { IoHandLeftOutline } from "react-icons/io5";
-import { BiMailSend } from "react-icons/bi";
+import { BiCloudDownload, BiMailSend } from "react-icons/bi";
 import { BsArrowDownShort, BsMouse } from "react-icons/bs";
 import style from "./banner.module.css";
 import { Link } from "react-scroll";
@@ -41,28 +41,38 @@ const Banner = () => {
           </a>
         </div>
         {/* Description */}
-        <div className="w-[500px] space-y-3">
-          <h3 className={` text-4xl font-semibold flex`}>
+        <div className="w-[500px] space-y-3 text-[#333]">
+          <h3 className={` text-4xl text-[#333] font-semibold flex`}>
             Hasib Ahamed Sakib{" "}
             <span className="-rotate-12 pl-5">
               <IoHandLeftOutline size={40} />{" "}
             </span>
           </h3>
 
-          <p className={`${style.hr} relative pl-20 font-semibold`}>
+          <p className={`${style.hr} relative pl-20 font-semibold text-lg`}>
             MERN Stack Developer{" "}
           </p>
-          <p className="w-full">
+          <p className="w-full font-medium">
             As a professional and passionate programmer, I always keep learning
             and exploring new technologies. For my quick and self learning
             attitude, I try to develop myself consistently, specially my
             Development skills.
           </p>
-          <a href="/#contact">
-            <button className="bg-[#333] hover:bg-[#171717] hover:ring-2 ring-black text-lg font-semibold text-white rounded-lg p-3 flex items-center  mt-4">
-              Lets Talk <BiMailSend size={25} className="ml-4" />
-            </button>
-          </a>
+          <div className="flex items-center space-x-5 mt-4">
+            <a
+              download="Hasib_ahamed_resume"
+              href="../../../public/hasib_ahamed_resume.pdf"
+            >
+              <button className="bg-[#333] hover:bg-[#171717] hover:ring-2 ring-black text-lg font-semibold text-white rounded-lg p-3 flex items-center  ">
+                Download CV <BiCloudDownload size={25} className="ml-4" />
+              </button>
+            </a>
+            <a href="/#contact">
+              <button className="bg-[#333] hover:bg-[#171717] hover:ring-2 ring-black text-lg font-semibold text-white rounded-lg p-3 flex items-center  ">
+                Lets Talk <BiMailSend size={25} className="ml-4" />
+              </button>
+            </a>
+          </div>
           <div className="pt-10">
             <Link
               to="about"
@@ -83,7 +93,7 @@ const Banner = () => {
         {/* animated image */}
 
         <img
-          className={`${style.animated_image} border-8 border-slate-600 grayscale cursor-pointer`}
+          className={`${style.animated_image} border-8 border-slate-600 grayscale cursor-pointer rounded-full`}
           title="Hasib Ahamed Sakib"
           src="https://i.ibb.co/VvpvhFV/IMG20201110082641-removebg-preview-3.png"
           alt=""

@@ -50,7 +50,7 @@ const Navbar = () => {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  className="focus:text-red-500 font-semibold hover:underline cursor-pointer "
+                  className="focus:text-red-500 font-semibold hover:underline cursor-pointer active:text-red-600"
                 >
                   {link.title}
                 </Link>
