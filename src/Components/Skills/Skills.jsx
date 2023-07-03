@@ -10,7 +10,7 @@ const Skills = () => {
       .then((res) => res.json())
       .then((data) => setSkills(data));
   }, []);
-  console.log(allSkills);
+
   return (
     <div className="container">
       <HrLine />

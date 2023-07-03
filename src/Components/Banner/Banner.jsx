@@ -11,9 +11,9 @@ import { Link } from "react-scroll";
 const Banner = () => {
   return (
     <div className="container">
-      <div className="pt-20 h-screen flex justify-evenly items-center">
+      <div className="pt-20 h-screen block md:flex  justify-evenly items-center">
         {/* social section */}
-        <div className="">
+        <div className="flex md:block items-center justify-between">
           <a
             href="https://github.com/hasibahamedsakib"
             target="_blank"
@@ -59,10 +59,7 @@ const Banner = () => {
             Development skills.
           </p>
           <div className="flex items-center space-x-5 mt-4">
-            <a
-              download="Hasib_ahamed_resume"
-              href="../../../public/hasib_ahamed_resume.pdf"
-            >
+            <a download="Hasib_ahamed_resume" href="/hasib_ahamed_resume.pdf">
               <button className="btn-primary">
                 Download CV <BiCloudDownload size={25} className="ml-4" />
               </button>
