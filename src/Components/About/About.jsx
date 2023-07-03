@@ -12,9 +12,9 @@ const About = () => {
   return (
     <div className=" container">
       <HrLine />
+      <SectionHeader title="About Me" text="Who i am...!" />
       <div className=" flex  items-center">
         <div className="w-full lg:w-3/5 space-y-4">
-          <SectionHeader title="About Me" text="Who i am...!" />
           <div className="md:flex items-center justify-center space-x-6 px-10">
             <div className="border rounded-md bg-white py-5 px-8 text-center  font-semibold text-[#333] w-full">
               <FaAward size={30} className="mx-auto mb-3" />

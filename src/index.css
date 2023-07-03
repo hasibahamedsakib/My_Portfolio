@@ -9,3 +9,7 @@
 .shadow-custom {
   box-shadow: 1px 1px 8px #333;
 }
+
+.btn-primary {
+  @apply bg-[#333] hover:bg-[#171717] hover:ring-2 ring-black text-lg font-semibold text-white rounded-lg px-3 py-1 lg:p-3 flex items-center;
+}

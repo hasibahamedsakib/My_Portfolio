@@ -63,12 +63,12 @@ const Banner = () => {
               download="Hasib_ahamed_resume"
               href="../../../public/hasib_ahamed_resume.pdf"
             >
-              <button className="bg-[#333] hover:bg-[#171717] hover:ring-2 ring-black text-lg font-semibold text-white rounded-lg p-3 flex items-center  ">
+              <button className="btn-primary">
                 Download CV <BiCloudDownload size={25} className="ml-4" />
               </button>
             </a>
             <a href="/#contact">
-              <button className="bg-[#333] hover:bg-[#171717] hover:ring-2 ring-black text-lg font-semibold text-white rounded-lg p-3 flex items-center  ">
+              <button className="btn-primary">
                 Lets Talk <BiMailSend size={25} className="ml-4" />
               </button>
             </a>
