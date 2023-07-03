@@ -18,7 +18,7 @@ const Skills = () => {
 
       {/* skills section */}
       <div className="py-10 flex justify-center space-x-6 items-center text-[#333]">
-        <div className="bg-white w-full md:w-[400px] p-10 border rounded-lg text-center ">
+        <div className="bg-white w-full md:w-[400px] p-10 border rounded-lg  ">
           <h3 className="text-2xl font-semibold pb-5">Frontend</h3>
           <div className="grid grid-cols-2 gap-7 ">
             <div>
@@ -60,7 +60,7 @@ const Skills = () => {
           </div>
         </div>
         {/* Backend */}
-        <div className="bg-white w-full md:w-[400px] p-10 border rounded-lg text-center">
+        <div className="bg-white w-full md:w-[400px] p-10 border rounded-lg ">
           <h3 className="text-2xl font-semibold pb-5">Backend</h3>
           <div className="grid grid-cols-2 gap-7">
             <div>
@@ -104,7 +104,7 @@ const Skills = () => {
       </div>
 
       {/* Slider */}
-      <marquee direction="left" className="py-5 ">
+      <marquee direction="left" className="py-10 ">
         <div className={`flex space-x-7`}>
           <div className="flex space-x-8">
             {allSkills.map((skills) => {
