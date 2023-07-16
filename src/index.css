@@ -11,5 +11,5 @@
 }
 
 .btn-primary {
-  @apply bg-[#333] hover:bg-[#171717] hover:ring-2 ring-black text-lg font-semibold text-white rounded-lg px-3 py-1 lg:p-3 flex items-center;
+  @apply bg-[#333] hover:bg-[#171717] hover:ring-2 ring-black md:text-lg font-semibold text-white rounded-lg px-3 py-1 lg:p-3 text-center  sm:flex items-center;
 }

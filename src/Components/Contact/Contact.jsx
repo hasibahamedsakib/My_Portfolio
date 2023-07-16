@@ -13,7 +13,7 @@ const Contact = () => {
 together!"
         text="Get in touch"
       />
-      <div className="flex justify-around space-x-8 text-[#333]">
+      <div className="block md:flex justify-around space-x-8 text-[#333]">
         <div>
           <h2 className="text-center text-xl font-semibold py-5">
             Connect With Via
@@ -75,7 +75,7 @@ together!"
             <input
               placeholder="Enter Your Name"
               required
-              className="p-4 border-2 block w-[420px] focus:outline-none rounded-xl bg-white "
+              className="p-4 border-2 block w-full lg:w-[420px] focus:outline-none rounded-xl bg-white "
             />
           </div>
           <div className="pb-5">
@@ -84,14 +84,14 @@ together!"
               placeholder="Enter Your Email"
               type="email"
               required
-              className="p-4 border-2 block w-[420px] focus:outline-none rounded-xl bg-white "
+              className="p-4 border-2 block w-full lg:w-[420px] focus:outline-none rounded-xl bg-white "
             />
           </div>
           <div className="pb-5">
             <label className="pb-4 font-semibold text-lg p-2">Message: </label>
             <textarea
               placeholder="Write Me for work of collaboration"
-              className="p-4 border-2 block w-[420px] focus:outline-none rounded-xl bg-white h-[200px]"
+              className="p-4 border-2 block w-full lg:w-[420px] focus:outline-none rounded-xl bg-white h-[200px]"
             />
           </div>
           <div className="grid justify-center pt-3">

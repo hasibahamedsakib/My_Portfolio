@@ -12,7 +12,7 @@ const Portfolio = () => {
           <button className="btn-primary">All My Works Here</button>
         </Link>
       </div>
-      <div className="flex justify-around  gap-6  pt-16 ">
+      <div className="block md:flex justify-around  gap-6  pt-16 ">
         <div className="border rounded-lg overflow-hidden p-5 object-fill w-full md:w-1/2">
           <img
             src="https://i.ibb.co/VvSBt3r/Web-capture-14-6-2023-162752-articio-client-web-app.jpg"
@@ -24,7 +24,7 @@ const Portfolio = () => {
           <h3 className="text-2xl font-semibold">
             Articio: Summer Camp Art-School Related Website
           </h3>
-          <p className="py-4 text-lg">
+          <p className="py-4 md:text-lg">
             This project is a Summer Camp Art school website where instructors
             can create and post classes, and users can enroll in these classes
             by making payments. The website also features a payment system
@@ -65,7 +65,7 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div className="flex flex-row-reverse justify-around  gap-6  pt-16 ">
+      <div className="md:flex md:flex-row-reverse justify-around  gap-6  pt-16 ">
         <div className="border rounded-lg overflow-hidden p-5 object-fill w-full md:w-1/2">
           <img
             src="https://i.ibb.co/VxcGJzj/Web-capture-14-6-2023-14510-toy-hunt-place-web-app.jpg"
@@ -77,7 +77,7 @@ const Portfolio = () => {
           <h3 className="text-2xl font-semibold">
             ToyHuntPlace: Children's Car Toys-Related Website.
           </h3>
-          <p className="py-4 text-lg">
+          <p className="py-4 md:text-lg">
             Responsive MERN Stack project with Firebase authentication with the
             private route and implement user searching and sorting functionality
             With Payment Method-Stripe. Selar can upload his product and update,
@@ -118,7 +118,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div className="flex  justify-around  gap-6  py-16 ">
+      <div className="md:flex justify-around  gap-6  py-16 ">
         <div className="border rounded-lg overflow-hidden p-5 object-fill w-full md:w-1/2">
           <img
             src="https://i.ibb.co/56V7J9z/Web-capture-14-6-2023-1455-chef-hunter-c8bd8-web-app.jpg"
@@ -130,7 +130,7 @@ const Portfolio = () => {
           <h3 className="text-2xl font-semibold">
             ChefHunter: A Restaurant Chef Related Website.
           </h3>
-          <p className="py-4 text-lg">
+          <p className="py-4 md:text-lg">
             This project is a Restaurant Chef Related Website. Project is Full
             Responsive MERN Stack project with Firebase authentication.
             Customers can see all the chefs And details about this chef and his

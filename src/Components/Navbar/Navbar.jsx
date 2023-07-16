@@ -80,7 +80,7 @@ const Navbar = () => {
           <nav
             className={`${
               isOpen ? "block" : "hidden"
-            } block md:flex space-y-2 text-center  lg:space-x-8 md:space-y-0 `}
+            } block md:flex space-y-2 text-center  md:space-x-8 md:space-y-0 `}
           >
             {navLinks.map((link) => (
               <Link

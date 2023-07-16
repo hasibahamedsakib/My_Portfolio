@@ -17,7 +17,7 @@ const Skills = () => {
       <SectionHeader title="Skills" text="Opted Technologies" />
 
       {/* skills section */}
-      <div className="py-10 flex justify-center space-x-6 items-center text-[#333]">
+      <div className="py-10 block md:flex justify-center md:space-x-6  space-y-5 md:space-y-0 items-center text-[#333]">
         <div className="bg-white w-full md:w-[400px] p-10 border rounded-lg  ">
           <h3 className="text-2xl font-semibold pb-5">Frontend</h3>
           <div className="grid grid-cols-2 gap-7 ">

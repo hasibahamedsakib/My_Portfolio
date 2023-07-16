@@ -10,38 +10,19 @@ import style from "./banner.module.css";
 import { Link } from "react-scroll";
 const Banner = () => {
   return (
-    <div className="container">
-      <div className="pt-20 h-screen block md:flex  justify-evenly items-center">
-        {/* social section */}
-        <div className="flex md:block items-center justify-between">
-          <a
-            href="https://github.com/hasibahamedsakib"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Hasib's Github"
-          >
-            <AiFillGithub size={25} />
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/hasib-ahamed-sakib/"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Hasib's Linkedin"
-          >
-            <AiFillLinkedin size={25} className="my-6" />
-          </a>
-          <a
-            href="https://wa.me/1836405792"
-            target="_blank"
-            rel="noopener noreferrer"
-            title="Hasib's Whatsapp"
-          >
-            <AiOutlineWhatsApp size={25} />
-          </a>
+    <div className="container ">
+      <div className="pt-20 flex flex-col md:flex-row  h-screen justify-evenly items-center">
+        {/* animated image */}
+        <div className="w-full hidden md:block lg:w-[500px] order-2 md:order-3 ">
+          <img
+            className={` ${style.animated_image} border-8 border-slate-600 grayscale cursor-pointer rounded-full `}
+            title="Hasib Ahamed Sakib"
+            src="https://i.ibb.co/VvpvhFV/IMG20201110082641-removebg-preview-3.png"
+            alt=""
+          />
         </div>
         {/* Description */}
-        <div className="w-[500px] space-y-3 text-[#333]">
+        <div className="w-full lg:w-[500px] order-3 md:order-2 space-y-3 text-[#333]">
           <h3 className={` text-4xl text-[#333] font-semibold flex`}>
             Hasib Ahamed Sakib{" "}
             <span className="-rotate-12 pl-5">
@@ -78,7 +59,7 @@ const Banner = () => {
               </button>
             </Link>
           </div>
-          <div className="pt-10">
+          <div className="py-10">
             <Link
               to="about"
               activeClass="active"
@@ -95,14 +76,34 @@ const Banner = () => {
             </Link>
           </div>
         </div>
-        {/* animated image */}
+        {/* social section */}
+        <div className="flex space-x-6 md:space-x-0 md:block md:mr-4 lg:mr-0 items-center justify-evenly order-1 md:order-1  ">
+          <a
+            href="https://github.com/hasibahamedsakib"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Hasib's Github"
+          >
+            <AiFillGithub size={25} />
+          </a>
 
-        <img
-          className={`${style.animated_image} border-8 border-slate-600 grayscale cursor-pointer rounded-full`}
-          title="Hasib Ahamed Sakib"
-          src="https://i.ibb.co/VvpvhFV/IMG20201110082641-removebg-preview-3.png"
-          alt=""
-        />
+          <a
+            href="https://www.linkedin.com/in/hasib-ahamed-sakib/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Hasib's Linkedin"
+          >
+            <AiFillLinkedin size={25} className="my-6" />
+          </a>
+          <a
+            href="https://wa.me/1836405792"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Hasib's Whatsapp"
+          >
+            <AiOutlineWhatsApp size={25} />
+          </a>
+        </div>
       </div>
       {/* go to next section */}
     </div>

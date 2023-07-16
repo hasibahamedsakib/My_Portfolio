@@ -1,6 +1,7 @@
 import About from "../Components/About/About";
 import Banner from "../Components/Banner/Banner";
 import Contact from "../Components/Contact/Contact";
+import Gaper from "../Components/Gaper/Gaper";
 import Portfolio from "../Components/Portfolio/Portfolio";
 import Service from "../Components/Service/Service";
 import Skills from "../Components/Skills/Skills";
@@ -11,6 +12,7 @@ const Home = () => {
       <section id="banner">
         <Banner />
       </section>
+      {/* <Gaper /> */}
       <section id="about">
         <About />
       </section>

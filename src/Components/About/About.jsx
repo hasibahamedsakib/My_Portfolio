@@ -10,12 +10,13 @@ const About = () => {
     animationData: animationData,
   };
   return (
-    <div className=" container">
+    <div className="sm:mt-20 md:mt-0 container">
       <HrLine />
+
       <SectionHeader title="About Me" text="Who i am...!" />
-      <div className=" flex  items-center">
-        <div className="w-full lg:w-3/5 space-y-4">
-          <div className="md:flex items-center justify-center space-x-6 px-10">
+      <div className="block md:flex  items-center ">
+        <div className="w-full md:w-3/5 md:space-y-4 ">
+          <div className="block md:flex items-center justify-center space-y-5 md:space-x-6 md:space-y-0 px-10 py-5">
             <div className="border rounded-md bg-white py-5 px-8 text-center  font-semibold text-[#333] w-full">
               <FaAward size={30} className="mx-auto mb-3" />
               <p>Experience</p>
