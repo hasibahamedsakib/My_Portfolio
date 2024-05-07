@@ -4,7 +4,7 @@ import SectionHeader from "../SectionHeader/SectionHeader";
 import { FaCode, FaLaptopCode } from "react-icons/fa";
 const Portfolio = () => {
   return (
-    <div className="container text-[#333]">
+    <div className="Container text-[#333]">
       <HrLine />
       <div className="flex justify-between items-center">
         <SectionHeader title="Portfolio" text="MY LATEST WORK." />
@@ -21,10 +21,10 @@ const Portfolio = () => {
           />
         </div>
         <div className="px-5 w-full md:w-1/2">
-          <h3 className="text-2xl font-semibold">
+          <h3 className="text-lg sm:text-xl xl:text-lg sm:text-xl xl:text-2xl font-semibold">
             Articio: Summer Camp Art-School Related Website
           </h3>
-          <p className="py-4 md:text-lg">
+          <p className="py-4 text-sm sm:text-base">
             This project is a Summer Camp Art school website where instructors
             can create and post classes, and users can enroll in these classes
             by making payments. The website also features a payment system
@@ -74,10 +74,10 @@ const Portfolio = () => {
           />
         </div>
         <div className="px-5 w-full md:w-1/2">
-          <h3 className="text-2xl font-semibold">
+          <h3 className="text-lg sm:text-xl xl:text-2xl font-semibold">
             ToyHuntPlace: Children's Car Toys-Related Website.
           </h3>
-          <p className="py-4 md:text-lg">
+          <p className="py-4 text-sm sm:text-base">
             Responsive MERN Stack project with Firebase authentication with the
             private route and implement user searching and sorting functionality
             With Payment Method-Stripe. Selar can upload his product and update,
@@ -127,10 +127,10 @@ const Portfolio = () => {
           />
         </div>
         <div className="px-5 w-full md:w-1/2">
-          <h3 className="text-2xl font-semibold">
+          <h3 className="text-lg sm:text-xl xl:text-2xl font-semibold">
             ChefHunter: A Restaurant Chef Related Website.
           </h3>
-          <p className="py-4 md:text-lg">
+          <p className="py-4 text-sm sm:text-base">
             This project is a Restaurant Chef Related Website. Project is Full
             Responsive MERN Stack project with Firebase authentication.
             Customers can see all the chefs And details about this chef and his

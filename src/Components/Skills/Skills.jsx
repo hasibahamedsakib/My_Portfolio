@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import HrLine from "../HrLine/HrLine";
 import SectionHeader from "../SectionHeader/SectionHeader";
 import { BsCheckCircle } from "react-icons/bs";
+import Marquee from "react-fast-marquee";
 
 const Skills = () => {
   const [allSkills, setSkills] = useState([]);
@@ -12,7 +13,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <div className="container">
+    <div className="Container">
       <HrLine />
       <SectionHeader title="Skills" text="Opted Technologies" />
 
@@ -23,19 +24,19 @@ const Skills = () => {
           <div className="grid grid-cols-2 gap-7 ">
             <div>
               <p className="flex  items-center font-semibold text-base">
-                <BsCheckCircle className="mr-2" size={15} /> HTML
-              </p>
-              <small>Intermediate</small>
-            </div>
-            <div>
-              <p className="flex  items-center font-semibold text-base">
-                <BsCheckCircle className="mr-2" size={15} /> CSS
-              </p>
-              <small>Intermediate</small>
-            </div>
-            <div>
-              <p className="flex  items-center font-semibold text-base">
                 <BsCheckCircle className="mr-2" size={15} /> Javascript
+              </p>
+              <small>Intermediate</small>
+            </div>
+            <div>
+              <p className="flex  items-center font-semibold text-base">
+                <BsCheckCircle className="mr-2" size={15} /> Typescript
+              </p>
+              <small>Intermediate</small>
+            </div>
+            <div>
+              <p className="flex  items-center font-semibold text-base">
+                <BsCheckCircle className="mr-2" size={15} /> Redux
               </p>
               <small>Intermediate</small>
             </div>
@@ -104,7 +105,7 @@ const Skills = () => {
       </div>
 
       {/* Slider */}
-      <marquee direction="left" className="py-10 ">
+      <Marquee direction="left" pauseOnHover className="py-10 ">
         <div className={`flex space-x-7`}>
           <div className="flex space-x-8">
             {allSkills.map((skills) => {
@@ -117,7 +118,7 @@ const Skills = () => {
                     {" "}
                     <img
                       src={skills.icon}
-                      className="grayscale object-fill w-20 h-20 rounded-2xl"
+                      className=" object-fill w-20 h-20 rounded-2xl"
                       alt=""
                     />
                   </span>
@@ -129,7 +130,7 @@ const Skills = () => {
             })}
           </div>
         </div>
-      </marquee>
+      </Marquee>
     </div>
   );
 };

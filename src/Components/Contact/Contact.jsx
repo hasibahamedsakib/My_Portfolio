@@ -6,7 +6,7 @@ import { BiMailSend, BiSend } from "react-icons/bi";
 
 const Contact = () => {
   return (
-    <div className="container">
+    <div className="Container">
       <HrLine />
       <SectionHeader
         title="Let's work

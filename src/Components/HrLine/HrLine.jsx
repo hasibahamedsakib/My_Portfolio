@@ -5,7 +5,7 @@ const HrLine = () => {
   return (
     <div>
       <p className={`${style.line} relative  pr-10 `}>
-        <BsThreeDots size={40} />
+        <BsThreeDots className="w-8 h-8" />
       </p>
     </div>
   );

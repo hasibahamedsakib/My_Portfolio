@@ -2,61 +2,71 @@
   {
     "id": 1,
     "name": "HTML",
-    "icon": "https://abusaid.netlify.app/static/media/html.75bdf0b057c088503944680032ea6347.svg"
+    "icon": "./html.png"
   },
   {
     "id": 2,
     "name": "CSS",
-    "icon": "https://abusaid.netlify.app/static/media/css.afb434f6d712d3e4ff53be8da4d9876a.svg"
+    "icon": "./css.png"
   },
   {
     "id": 3,
     "name": "Bootstrap",
-    "icon": "https://abusaid.netlify.app/static/media/bootstrap.3b3ab2cfe7cdf9d8eb417ce32f573b04.svg"
+    "icon": "./icons8-bootstrap-240.png"
   },
   {
     "id": 4,
     "name": "Tailwind",
-    "icon": "https://abusaid.netlify.app/static/media/tailwind.01daca9bb655244e125004ccd8d68e66.svg"
+    "icon": "./icons8-tailwind-css-240.png"
   },
   {
     "id": 5,
     "name": "Javascript",
-    "icon": "https://abusaid.netlify.app/static/media/javascript.f84ec7103324dc7e616d00ed43ecd531.svg"
+    "icon": "./icons8-javascript-240.png"
+  },
+  {
+    "id": 51,
+    "name": "Typescript",
+    "icon": "./icons8-typescript-240.png"
   },
   {
     "id": 6,
     "name": "React Js",
-    "icon": "https://abusaid.netlify.app/static/media/react.c3a0b34aae466451a91157424eec1ee3.svg"
+    "icon": "./icons8-react-native-240.png"
+  },
+  {
+    "id": 61,
+    "name": "Redux",
+    "icon": "./icons8-redux-240.png"
   },
   {
     "id": 7,
     "name": "Node Js",
-    "icon": "SiNodedotjs"
+    "icon": "./icons8-nodejs-240.png"
   },
   {
     "id": 8,
     "name": "Express Js",
-    "icon": "SiExpress"
+    "icon": "./icons8-express-js-240.png"
   },
   {
     "id": 9,
     "name": "MongoDB",
-    "icon": "https://abusaid.netlify.app/static/media/mongoDB.4428e2ce754003752672dce4c3d81b9d.svg"
+    "icon": "./icons8-mongodb-240.png"
   },
   {
     "id": 10,
     "name": "Firebase",
-    "icon": "https://abusaid.netlify.app/static/media/firebase.1aa395c85c103e349e0af5b92f670243.svg"
+    "icon": "./icons8-firebase-240.png"
   },
   {
     "id": 11,
     "name": "Figma",
-    "icon": "https://abusaid.netlify.app/static/media/figma.cc8e111619371cf586cc11dbd3173da0.svg"
+    "icon": "./icons8-figma-240.png"
   },
   {
     "id": 12,
     "name": "Next JS",
-    "icon": "https://abusaid.netlify.app/static/media/nextJS.330fb71cbedf3482d2a778c44724ab71.svg"
+    "icon": "./nextjs.svg"
   }
 ]

@@ -8,7 +8,7 @@ import Skills from "../Components/Skills/Skills";
 
 const Home = () => {
   return (
-    <div id="home">
+    <div id="home" className="Container">
       <section id="banner">
         <Banner />
       </section>

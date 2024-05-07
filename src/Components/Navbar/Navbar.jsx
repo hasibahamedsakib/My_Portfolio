@@ -44,7 +44,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-[#fafafa] z-50 fixed top-0 left-0 right-0 shadow-md">
-      <div className="container py-5">
+      <div className="Container py-5">
         <div className="block md:flex justify-between items-center">
           <div className="flex justify-between">
             <Logo />

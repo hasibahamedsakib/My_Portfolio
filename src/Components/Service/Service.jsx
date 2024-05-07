@@ -18,7 +18,7 @@ const Service = () => {
   const [isOpen2, setIsOpen2] = useState(false);
 
   return (
-    <div className="container">
+    <div className="Container">
       <HrLine />
       <SectionHeader title="Services" text="My offerings !" />
 
