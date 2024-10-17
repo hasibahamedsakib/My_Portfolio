@@ -13,11 +13,11 @@ const Banner = () => {
     <div className="Container lg:mt-10 lg:mb-5">
       <div className="pt-20 flex flex-col md:flex-row  min-h-[550px] h-screen justify-evenly items-center md:gap-x-3 lg:gap-x-10">
         {/* animated image */}
-        <div className=" hidden md:block md:w-[450px] xl:w-[500px] order-2 md:order-3">
+        <div className=" hidden md:block md:w-[450px] xl:w-[450px] order-2 md:order-3">
           <img
-            className={` ${style.animated_image} border-8 border-slate-600 grayscale cursor-pointer rounded-full `}
+            className={` ${style.animated_image} border-8 border-slate-600 grayscale cursor-pointer rounded`}
             title="Hasib Ahamed Sakib"
-            src="https://i.ibb.co/VvpvhFV/IMG20201110082641-removebg-preview-3.png"
+            src="https://i.ibb.co.com/S6qdkj6/1721030069000.jpg"
             alt=""
           />
         </div>

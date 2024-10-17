@@ -5,7 +5,7 @@
   left: 0;
   position: absolute;
   top: 1rem;
-  width: 65px;
+  width: 50px;
 }
 .animated_image {
   animation: profile_border_animation 6s ease-in-out 1s infinite;
@@ -29,5 +29,5 @@
   right: 0;
   position: absolute;
   top: 1rem;
-  width: 80%;
+  width: 70%;
 }
