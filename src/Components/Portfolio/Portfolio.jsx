@@ -23,7 +23,7 @@ const Portfolio = () => {
         </div>
         <div className="px-5 w-full md:w-1/2">
           <h3 className="text-lg sm:text-xl xl:text-2xl font-semibold">
-            Bazar365:Eco Friendly Online Grocery Platform
+            Bazar365: Pioneering sustainable online grocery platform.
           </h3>
           <p className="py-4 text-sm sm:text-base">
             Bazar365 is a pioneering sustainable online grocery platform focused
@@ -41,19 +41,19 @@ const Portfolio = () => {
               rel="noopener noreferrer"
             >
               <button className="btn-primary">
-                Live Site <FaLaptopCode size={25} className="ml-4" />{" "}
+                Live Site <FaLaptopCode size={20} className="ml-4" />{" "}
               </button>
             </a>
             <a href="#" target="_blank" rel="noopener noreferrer">
               {" "}
               <button className="btn-primary">
-                Client Side <FaCode size={25} className="ml-4" />{" "}
+                Client Side <FaCode size={20} className="ml-4" />{" "}
               </button>
             </a>
 
             <a href="#" target="_blank" rel="noopener noreferrer">
               <button className="btn-primary">
-                Server Side <FaCode size={25} className="ml-4" />
+                Server Side <FaCode size={20} className="ml-4" />
               </button>
             </a>
           </div>
@@ -89,7 +89,7 @@ const Portfolio = () => {
               rel="noopener noreferrer"
             >
               <button className="btn-primary">
-                Live Site <FaLaptopCode size={25} className="ml-4" />{" "}
+                Live Site <FaLaptopCode size={20} className="ml-4" />{" "}
               </button>
             </a>
             <a
@@ -99,13 +99,13 @@ const Portfolio = () => {
             >
               {" "}
               <button className="btn-primary">
-                Client Side <FaCode size={25} className="ml-4" />{" "}
+                Client Side <FaCode size={20} className="ml-4" />{" "}
               </button>
             </a>
 
             <a href="#" target="_blank" rel="noopener noreferrer">
               <button className="btn-primary">
-                Server Side <FaCode size={25} className="ml-4" />
+                Server Side <FaCode size={20} className="ml-4" />
               </button>
             </a>
           </div>
@@ -140,7 +140,7 @@ const Portfolio = () => {
               rel="noopener noreferrer"
             >
               <button className="btn-primary">
-                Live Site <FaLaptopCode size={25} className="ml-4" />{" "}
+                Live Site <FaLaptopCode size={20} className="ml-4" />{" "}
               </button>
             </a>
             <a
@@ -150,7 +150,7 @@ const Portfolio = () => {
             >
               {" "}
               <button className="btn-primary">
-                Client Side <FaCode size={25} className="ml-4" />{" "}
+                Client Side <FaCode size={20} className="ml-4" />{" "}
               </button>
             </a>
 
@@ -160,7 +160,7 @@ const Portfolio = () => {
               rel="noopener noreferrer"
             >
               <button className="btn-primary">
-                Server Side <FaCode size={25} className="ml-4" />
+                Server Side <FaCode size={20} className="ml-4" />
               </button>
             </a>
           </div>
@@ -192,7 +192,7 @@ const Portfolio = () => {
               rel="noopener noreferrer"
             >
               <button className="btn-primary">
-                Live Site <FaLaptopCode size={25} className="ml-4" />{" "}
+                Live Site <FaLaptopCode size={20} className="ml-4" />{" "}
               </button>
             </a>
             <a
@@ -202,7 +202,7 @@ const Portfolio = () => {
             >
               {" "}
               <button className="btn-primary">
-                Client Side <FaCode size={25} className="ml-4" />{" "}
+                Client Side <FaCode size={20} className="ml-4" />{" "}
               </button>
             </a>
 
@@ -212,7 +212,7 @@ const Portfolio = () => {
               rel="noopener noreferrer"
             >
               <button className="btn-primary">
-                Server Side <FaCode size={25} className="ml-4" />
+                Server Side <FaCode size={20} className="ml-4" />
               </button>
             </a>
           </div>
@@ -246,7 +246,7 @@ const Portfolio = () => {
               rel="noopener noreferrer"
             >
               <button className="btn-primary">
-                Live Site <FaLaptopCode size={25} className="ml-4" />{" "}
+                Live Site <FaLaptopCode size={20} className="ml-4" />{" "}
               </button>
             </a>
             <a
@@ -256,7 +256,7 @@ const Portfolio = () => {
             >
               {" "}
               <button className="btn-primary">
-                Client Side <FaCode size={25} className="ml-4" />{" "}
+                Client Side <FaCode size={20} className="ml-4" />{" "}
               </button>
             </a>
 
@@ -266,7 +266,7 @@ const Portfolio = () => {
               rel="noopener noreferrer"
             >
               <button className="btn-primary">
-                Server Side <FaCode size={25} className="ml-4" />
+                Server Side <FaCode size={20} className="ml-4" />
               </button>
             </a>
           </div>
@@ -299,7 +299,7 @@ const Portfolio = () => {
               rel="noopener noreferrer"
             >
               <button className="btn-primary">
-                Live Site <FaLaptopCode size={25} className="ml-4" />{" "}
+                Live Site <FaLaptopCode size={20} className="ml-4" />{" "}
               </button>
             </a>
             <a
@@ -309,7 +309,7 @@ const Portfolio = () => {
             >
               {" "}
               <button className="btn-primary">
-                Client Side <FaCode size={25} className="ml-4" />{" "}
+                Client Side <FaCode size={20} className="ml-4" />{" "}
               </button>
             </a>
 
@@ -319,7 +319,7 @@ const Portfolio = () => {
               rel="noopener noreferrer"
             >
               <button className="btn-primary">
-                Server Side <FaCode size={25} className="ml-4" />
+                Server Side <FaCode size={20} className="ml-4" />
               </button>
             </a>
           </div>

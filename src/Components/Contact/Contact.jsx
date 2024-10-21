@@ -30,7 +30,7 @@ together!"
                 Write Me{" "}
                 <BsArrowRightCircle
                   className="ml-2  hover:scale-105"
-                  size={20}
+                  size={25}
                 />{" "}
               </a>
             </div>
@@ -46,7 +46,7 @@ together!"
                 Write Me{" "}
                 <BsArrowRightCircle
                   className="ml-2  hover:scale-105"
-                  size={20}
+                  size={25}
                 />{" "}
               </a>
             </div>
@@ -62,7 +62,7 @@ together!"
                 Write Me{" "}
                 <BsArrowRightCircle
                   className="ml-2  hover:scale-105"
-                  size={20}
+                  size={25}
                 />{" "}
               </a>
             </div>

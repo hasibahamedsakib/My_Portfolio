@@ -36,7 +36,7 @@ const Service = () => {
               onClick={() => setIsOpen(true)}
             >
               View More{" "}
-              <BsArrowRightCircle className="ml-2  hover:scale-105" size={20} />{" "}
+              <BsArrowRightCircle className="ml-2  hover:scale-105" size={25} />{" "}
             </Link>
           </div>
           {/* Modal Code */}
@@ -129,7 +129,7 @@ const Service = () => {
                 View More{" "}
                 <BsArrowRightCircle
                   className="ml-2 hover:scale-105"
-                  size={20}
+                  size={25}
                 />{" "}
               </Link>
             </div>
