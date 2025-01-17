@@ -135,7 +135,7 @@ const Portfolio = () => {
           </p>
           <div className="flex items-center justify-center space-x-5">
             <a
-              href="https://articio-client.web.app/"
+              href="https://royella.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -144,7 +144,7 @@ const Portfolio = () => {
               </button>
             </a>
             <a
-              href="https://github.com/hasibahamedsakib/articio-client"
+              href="https://github.com/hasibahamedsakib/royella/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -155,7 +155,7 @@ const Portfolio = () => {
             </a>
 
             <a
-              href="https://github.com/hasibahamedsakib/articio-server"
+              href="https://github.com/hasibahamedsakib/royella/"
               target="_blank"
               rel="noopener noreferrer"
             >
